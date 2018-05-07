@@ -1,8 +1,8 @@
 const express = require("express");
 const mongoose = require("mongoose");
-const users = require("./config/api/users");
-const profile = require("./config/api/profile");
-const posts = require("./config/api/posts");
+const users = require("./routes/api/users");
+const profile = require("./routes/api/profile");
+const posts = require("./routes/api/posts");
 
 const app = express();
 
